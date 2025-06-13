@@ -7,5 +7,10 @@
 		"express": "^5.1.0",
 		"puppeteer": "^24.10.1"
 	},
+	"pnpm": {
+		"onlyBuiltDependencies": [
+			"puppeteer"
+		]
+	},
 	"packageManager": "pnpm@10.6.4"
 }
